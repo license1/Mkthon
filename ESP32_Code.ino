@@ -50,7 +50,7 @@ Serial.print("Altitude = ");
 Serial.print(bmp.readAltitude());
 Serial.println(" meters");
 
-if (temperature < 36) {
+if (temperature < ) {
   digitalWrite(5, HIGH); // Set GPIO22 active high
 delay(1000);
   } else {
